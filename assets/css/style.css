@@ -1,0 +1,504 @@
+/* Start root */
+:root {
+    --header-height: 7rem;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: cyan;
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px blue;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+main {
+    background-color: rgb(6, 6, 6);
+}
+/* End root */
+
+/* Start header */
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+}
+
+h3 {
+    font-family: Syne Mono;
+    color: yellow;
+    font-size: 22px;
+}
+
+h4 {
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+iframe {
+    max-width: auto;
+    max-height: 400px;
+}
+
+.header {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(50, 50, 175);
+    padding: 30px;
+}
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 0.9;
+    justify-content: space-around;
+}
+
+ul li a {
+    transition: 0.2s;
+}
+
+ul li a:hover {
+    color: yellow;
+    font-weight: bold;
+}
+/* End header */
+
+/* Start Head */
+.head {
+    font-family: Syne Mono;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px 250px;
+    background: url(background.jpg);
+    background-size: cover;
+    background-color: rgb(6, 6, 6);
+}
+
+.head-text {
+    margin: 100px auto;
+}
+
+.button {
+    margin: 0px auto;
+    transition: 0.5s;
+    font: bold 60% monospace;
+    border-radius: 10px;
+    background-color: cyan;
+    border: 5px solid darkblue;
+    color: black;
+    padding: 10px 15px;
+}
+
+.button:hover {
+    transition: 0.5s;
+    background-color: darkblue;
+    border: 5px solid cyan;
+    color: white;
+}
+/* End Head */
+
+/* Start main content */
+.title {
+    font-size: 55px;
+    font-style: italic;
+    text-shadow: rgb(109, 216, 109) 2px 2px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+    margin: 50px auto;
+    color: red;
+}
+
+.profile-pic {
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    max-height: 250px;
+    margin-bottom: 40px;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+}
+
+.sections {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    margin: 0px 10px 150px 10px;
+}
+
+.text {
+    box-sizing: content-box;
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: rgb(40, 99, 93);
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.text p {
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.skills {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Start projects */
+.lc-img img {
+    width: 250px;
+    height: 280px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-alignment {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lc-alignment {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin: 80px auto;
+}
+
+.link-card {
+    box-sizing: content-box;
+    width: 250px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(46, 46, 46);
+}
+
+.lc-content p {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 5px;
+}
+
+.lc-content h3 {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.lc-button {
+    margin: 0px auto;
+    transition: 0.5s;
+    font: bold 70% monospace;
+    border-radius: 10px;
+    background-color: cyan;
+    border: 5px solid darkblue;
+    color: black;
+    padding: 10px 15px;
+}
+
+.lc-button:hover {
+    transition: 0.5s;
+    background-color: darkblue;
+    border: 5px solid cyan;
+    color: white;
+}
+
+.lc-footer {
+    padding: 0px 0px 40px;
+}
+/* End projects */
+
+/* Start Form */
+.contact-form{
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-around;
+    margin: 0px 10px 150px 10px;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.6;
+}
+
+.contact-form form,
+.contactInfo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact-form form input,
+.contact-form form textarea{
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-form form textarea{
+    min-height: 200px;
+}
+
+.contact-form form input::placeholder,
+.contact-form form textarea::placeholder{
+    color: yellow;
+}
+
+.contact-form form input[type="submit"]{
+    max-width: 100px;
+    transition: 0.5s;
+    font: bold 90% monospace;
+    border-radius: 10px;
+    background-color: cyan;
+    border: 5px solid darkblue;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact-form form input[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: darkblue;
+    border: 5px solid cyan;
+    color: white;
+}
+/* End Form */
+/* End main content */
+
+/* Start footer */
+.footer {
+    background-color: rgb(46, 46, 46);
+}
+
+.padding {
+    padding: 20px;
+}
+
+.bottom {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: content-box;
+    max-width: 720px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 175);
+    padding: 20px;
+}
+
+.copy::before {
+    content: "©";
+}
+
+#copyright {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    padding: 40px 0px 10px;
+}
+/* End footer */
+
+/* Media query min-420px */
+@media screen and (min-width: 720px) {
+    
+    .top-nav-420 {
+        display: none;
+    }
+    
+    .bottom-content-420 {
+        display: none;
+    }
+
+}
+
+/* Media query max-420px */
+@media screen and (max-width: 720px) {
+
+    .header {
+        padding: 10px;
+    }
+
+    .top-nav {
+        display: none;
+    }
+
+    .bar-btn {
+        display: flex;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        padding: 10px;
+    }
+    
+    .bar-btn img {
+        display: block;
+        margin-left: 280px;
+    }
+
+    .nav-menu {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        width: 99%;
+        height: 0vh;
+        right: 0.5%;
+        top: 74px;
+        background-color: rgb(50, 50, 175, 0.95);
+        text-align: center;
+        transition: all .5s;
+    }
+    
+    .nav-menu li {
+        display: none;
+        line-height: 30px;
+        margin: 50px auto;
+        transition: all .5s;
+    }
+    
+    .nav-menu li a {
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    
+    .nav-menu li a.active, .nav-menu li a:hover {
+        color: yellow;
+        transition: .3s;
+    }
+    
+    #check {
+        display: none;
+    }
+    
+    #check:checked ~ .nav-menu {
+        height: 100vh;
+    }
+    
+    #check:checked ~ .nav-menu li {
+        display: block;
+    }
+    
+    .head {
+        font-size: 20px;
+        padding: 50px 0px 150px;
+        background: url(background.jpg);
+        background-size: cover;
+        background-color: rgb(6, 6, 6);
+    }
+
+    .button {
+        font: bold 80% monospace;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .profile-pic {
+        max-height: 150px;
+    }
+
+    .profile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sections {
+        font-size: 16px;
+        padding: 10px;
+    }
+    
+    .text {
+        width: 250px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .cards-alignment {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lc-alignment {
+        margin: 10px auto;
+    }
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea{
+        font-size: 14px;
+    }
+
+    .contact-form form input[type="submit"]{
+        font: bold 70% monospace;
+        padding: 5px;
+    }
+
+    .bottom {
+        display: none;
+    }
+
+    .bottom-420 {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: rgb(50, 50, 175);
+    }
+
+    .padding {
+        padding: 15px;
+    }
+
+    #copyright {
+        font-size: 10px;
+        padding: 20px 0px 5px;
+    }
+
+    .bottom-content-420 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 25px;
+    }
+}
